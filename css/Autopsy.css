@@ -11,7 +11,7 @@ body {
 }
 
 body{
-  background-image: url("../_images/autopsy_texture.jpg");
+  background-image: url("../images/autopsy_texture.jpg");
   //background-repeat: repeat-y;
   background-size: cover;
 }
@@ -29,7 +29,7 @@ td:hover {
 /*http://www.w3schools.com/css/css3_shadows.asp*/
 /*http://stackoverflow.com/questions/1891857/how-do-you-stretch-an-image-to-fill-a-div-while-keeping-the-images-aspect-rat*/
 table {;
-  background-image: url("../_images/oldpaper.jpg");
+  background-image: url("../images/oldpaper.jpg");
   font-family: "Lucida Sans Typewriter"; 
   padding: 6px;
   border: 2px solid black;

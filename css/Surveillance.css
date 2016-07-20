@@ -8,8 +8,8 @@ table {
 
 body{
   //background: darkgray;
-  //background-image: url("../_images/darkroom.jpg");
-  background-image: url("../_images/tv-wall2.jpg");
+  //background-image: url("../images/darkroom.jpg");
+  background-image: url("../images/tv-wall2.jpg");
   background-size: contain;
   //background-repeat: repeat-y;
   //background-size: cover;
@@ -17,7 +17,7 @@ body{
 
 #tv_container {
     zoom: 1.25;
-    background: url('../_images/tv3.png') no-repeat top left transparent;
+    background: url('../images/tv3.png') no-repeat top left transparent;
     background-size: 100% 100%;
     width: 400px; /* Adjust TV image width */
     height: 300px; /* Adjust TV image height */
