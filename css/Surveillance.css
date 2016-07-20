@@ -7,17 +7,13 @@ table {
 */
 
 body{
-  //background: darkgray;
-  //background-image: url("../images/darkroom.jpg");
   background-image: url("../images/tv-wall2.jpg");
   background-size: contain;
-  //background-repeat: repeat-y;
-  //background-size: cover;
 }
 
 #tv_container {
     zoom: 1.25;
-    background: url('../images/tv3.png') no-repeat top left transparent;
+    background: url('../images/TV3.png') no-repeat top left transparent;
     background-size: 100% 100%;
     width: 400px; /* Adjust TV image width */
     height: 300px; /* Adjust TV image height */
