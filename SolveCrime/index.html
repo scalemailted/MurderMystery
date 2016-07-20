@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="../_css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../_css/SolveCrime.css">
+</head>
+
+
+<!--
+Resources:
+http://www.plus2net.com/html_tutorial/button-linking.php
+http://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page
+http://www.w3schools.com/html/html_forms.asp
+-->
+<body>
+
+<nav>
+<a href="../Casefiles">View Casefiles</a> |
+<a href="../InspectRoom">Inspect Room</a> |
+<a href="../Interview">Interview Witnesses</a> |
+<a href="../SolveCrime">Solve Crime</a>
+</nav>
+
+<h1>Solve the Crime</h1>
+
+
+
+<img src="../_images/Police_Logo.png" width="250">
+
+
+<h2>Police Database</h2>
+<h3>Arrest Warrant</h3>
+<div id="arrest-warrant">
+
+<!--
+<table>
+	<tr>
+		<td><strong>Case</strong></td>
+		<td>Murder of Mr. X</td>
+	</tr>
+</table>
+-->
+<h4> Case 001: Murder of Mr. X</h4>
+<p> <em>Issue Arrest Warrant for Suspect & Close this Case.</em></p>
+
+
+<form>
+  <input type="text" name="killer" placeholder="Enter Suspect's name">
+  <input type=button onClick="if (killer.value === 'Tom') parent.location='../Gameover/win.html'; else parent.location='../Gameover/lost.html';" value='submit'>
+</form>
+</div>
+
+</body>
+</html>
+
+<!-- Refactor ths page such that it uses a form
+player fills in name of killer
+thans submits
+it attampts t0 go to URL with killer name
+if correct then you arrest him
+else fails
+
+
+Also refactor aestetic to mirror arrest warrent in police computer and use notebook paper for casefiles-->

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../_css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../_css/InspectRoom.css">
+</head>
+<body>
+
+<nav>
+<a href="../Casefiles">View Casefiles</a> |
+<a href="../InspectRoom">Inspect Room</a> |
+<a href="../Interview">Interview Witnesses</a> |
+<a href="../SolveCrime">Solve Crime</a>
+</nav>
+
+<h1>Inspect Room</h1>
+<h2>The Crime Scene</h2>
+
+<div class="columns2">
+<img src="../_images/room.png" alt="Crime Scene" usemap="#cluesmap" style="width:300px;">
+
+
+<map name="cluesmap">
+   <area shape="rect" coords="0,0,150,150" alt="Q1" href="inspect1.html" target="cluebox" >
+   <area shape="rect" coords="150,0,300,150" alt="Q2" href="inspect2.html" target="cluebox">
+   <area shape="rect" coords="0,150,150,300" alt="Q3" href="inspect3.html" target="cluebox">
+   <area shape="rect" coords="150,150,300,300" alt="Q4" href="inspect4.html" target="cluebox">
+</map>
+
+<!--<br>-->
+
+<iframe name="cluebox" src=""></iframe>
+
+<p>Click on objects within the crime scene to examine them for clues</p> 
+</div>
+
+</body>
+</html>
